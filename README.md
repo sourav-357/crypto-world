@@ -1,16 +1,129 @@
-# React + Vite
+# Crypto World 🌍📈
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern React-based cryptocurrency tracking application that displays real-time crypto market data in a clean and responsive UI.
 
-Currently, two official plugins are available:
+Live Demo 👉 https://crypto-world-ok55.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 📌 Overview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Crypto World is a web application built using React.js that fetches live cryptocurrency data from a public API and presents it in an easy-to-understand format.  
+The project focuses on mastering core React concepts such as state management, side effects, conditional rendering, and API integration.
 
-## Expanding the ESLint configuration
+This project was built as part of my React learning journey to strengthen my understanding of real-world frontend development.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ✨ Features
+
+- Real-time cryptocurrency data
+- Displays price, market data, and trends
+- Search and filter cryptocurrencies
+- Fast and responsive UI
+- Deployed on Vercel
+- Mobile-friendly layout
+
+---
+
+## 🛠 Tech Stack
+
+- Frontend: React.js
+- State Management: React Hooks (useState, useEffect)
+- Styling: CSS / Tailwind CSS
+- API: Public Cryptocurrency API
+- Deployment: Vercel
+
+---
+
+## 🧠 Key React Concepts Used
+
+- Functional Components
+- JSX
+- useState for managing application state
+- useEffect for handling side effects and API calls
+- Conditional Rendering (loading and UI states)
+- Rendering lists using map()
+- Props for component communication
+
+---
+
+## 📂 Project Structure
+
+src/
+├── components/      Reusable UI components  
+├── pages/           Application pages (if applicable)  
+├── services/        API logic  
+├── App.jsx          Root component  
+└── main.jsx         Entry point  
+
+---
+
+## 🚀 Getting Started (Run Locally)
+
+1. Clone the repository
+
+git clone https://github.com/your-username/crypto-world.git
+
+2. Navigate to the project directory
+
+cd crypto-world
+
+3. Install dependencies
+
+npm install
+
+4. Start the development server
+
+npm run dev
+
+The application will run on:
+
+http://localhost:5173
+
+---
+
+## 🌍 Deployment
+
+The project is deployed using Vercel.
+
+Live URL:  
+https://crypto-world-ok55.vercel.app/
+
+---
+
+## 📈 Future Improvements
+
+- Price history charts
+- Authentication for user watchlists
+- Favorite coins feature
+- Dark / Light theme toggle
+- Sorting by price, market cap, and volume
+
+---
+
+## 🎯 Learning Outcome
+
+Through this project, I gained hands-on experience with:
+
+- Building real-world React applications
+- Working with external APIs
+- Managing UI state effectively
+- Writing clean, reusable components
+- Deploying React applications
+
+---
+
+## 👨‍💻 Author
+
+Sourav Kumar  
+Frontend Developer | React Learner  
+
+GitHub: https://github.com/sourav-357
+LinkedIn: https://linkedin.com/in/
+
+---
+
+## 📜 License
+
+This project is open source and available under the MIT License.
