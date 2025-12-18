@@ -1,0 +1,38 @@
+
+.home {
+    padding: 0px 10px;
+    padding-bottom: 100px;
+}
+
+.hero {
+    max-width: 600px;
+    margin: 80px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    text-align: center;
+    gap: 30px;
+}
+
+.hero h1 {
+    font-size: max(4vw, 36px);
+}
+
+.hero p {
+    width: 75%;
+    color: #e3e3e3;
+    line-height: 1.5;
+}
+
+.hero form {
+    padding: 8px;
+    width: 80%;
+    background-color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
