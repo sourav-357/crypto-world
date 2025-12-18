@@ -120,7 +120,7 @@ Sourav Kumar
 Frontend Developer | React Learner  
 
 GitHub: https://github.com/sourav-357
-LinkedIn: https://linkedin.com/in/
+LinkedIn: https://linkedin.com/in/sourav-kumar-04a724399
 
 ---
 
