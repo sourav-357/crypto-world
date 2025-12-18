@@ -1,0 +1,123 @@
+.features-page {
+  padding: 40px 20px;
+  padding-bottom: 100px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.features-hero {
+  text-align: center;
+  margin: 80px auto 60px;
+  max-width: 700px;
+}
+
+.features-hero h1 {
+  font-size: max(4vw, 36px);
+  margin-bottom: 20px;
+}
+
+.features-hero p {
+  font-size: 1.1rem;
+  color: #e3e3e3;
+  line-height: 1.6;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  margin-bottom: 60px;
+}
+
+.feature-card {
+  padding: 35px;
+  background: linear-gradient(rgba(84, 3, 255, 0.15), rgba(105, 2, 153, 0.15));
+  border-radius: 15px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(121, 39, 255, 0.3);
+}
+
+.feature-icon {
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
+
+.feature-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.feature-card p {
+  color: #e3e3e3;
+  line-height: 1.6;
+  font-size: 0.95rem;
+}
+
+.features-cta {
+  text-align: center;
+  padding: 50px 30px;
+  background: linear-gradient(rgba(84, 3, 255, 0.15), rgba(105, 2, 153, 0.15));
+  border-radius: 15px;
+  margin-top: 40px;
+}
+
+.features-cta h2 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+
+.features-cta p {
+  color: #e3e3e3;
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+}
+
+.features-cta button {
+  padding: 15px 40px;
+  font-size: 1.1rem;
+  background: #7927ff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.features-cta button:hover {
+  background: #6a1fd9;
+}
+
+@media (max-width: 768px) {
+  .features-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .features-hero {
+    margin: 60px auto 40px;
+  }
+
+  .features-cta h2 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .features-page {
+    padding: 20px 10px;
+  }
+
+  .feature-card {
+    padding: 25px;
+  }
+
+  .feature-icon {
+    font-size: 3rem;
+  }
+}
+
